@@ -26,8 +26,8 @@ docker {
         //username = 'springframeworkguru'
         //password = (System.env.DOCKER_HUB_PWD)
         username = 'wanglianglin'
-        password = '72fUxFUg01'
-        email = 'john@springframework.guru'
+        password = (System.env.DOCKER_HUB_PWD)
+        email = 'wanglianglin@luoai.com'
     }
 }
 
